@@ -80,3 +80,16 @@ body{
   .about__info{
     max-width: 550px;
   }
+
+  .form{
+    display: flex;
+    justify-content: space-between;
+    font-family: Raleway, sans-serif;
+    font-size: 18px;
+    border-radius: 15px;
+  }
+
+  .form__container{
+    width: 550px;
+    
+  }

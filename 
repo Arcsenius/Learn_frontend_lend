@@ -1,0 +1,163 @@
+[33mcommit fb57509aad55630968d6944069c64048bcb6ae34[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmain[m[33m, [m[1;31morigin/main[m[33m)[m
+Author: ars <dabletap2005@gmail.com>
+Date:   Thu Mar 21 00:46:12 2024 +0300
+
+    project is ready
+
+[1mdiff --git a/img/[SW.BAND] 3.png b/img/[SW.BAND] 3.png[m
+[1mnew file mode 100644[m
+[1mindex 0000000..a322ac2[m
+Binary files /dev/null and b/img/[SW.BAND] 3.png differ
+[1mdiff --git a/img/[SW.BAND] back.png b/img/[SW.BAND] back.png[m
+[1mnew file mode 100644[m
+[1mindex 0000000..6a97e44[m
+Binary files /dev/null and b/img/[SW.BAND] back.png differ
+[1mdiff --git a/img/[SW.BAND] sun.png b/img/[SW.BAND] sun.png[m
+[1mnew file mode 100644[m
+[1mindex 0000000..592212b[m
+Binary files /dev/null and b/img/[SW.BAND] sun.png differ
+[1mdiff --git a/img/del.png b/img/del.png[m
+[1mnew file mode 100644[m
+[1mindex 0000000..5928ea2[m
+Binary files /dev/null and b/img/del.png differ
+[1mdiff --git a/index.html b/index.html[m
+[1mnew file mode 100644[m
+[1mindex 0000000..6db5820[m
+[1m--- /dev/null[m
+[1m+++ b/index.html[m
+[36m@@ -0,0 +1,30 @@[m
+[32m+[m[32m<!DOCTYPE html>[m[41m[m
+[32m+[m[32m<html lang="ru">[m[41m[m
+[32m+[m[32m<head>[m[41m[m
+[32m+[m[32m    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@100;300;400;500;600;700;800&display=swap" rel="stylesheet">[m[41m[m
+[32m+[m[32m    <link rel="stylesheet" href="main.css">[m[41m[m
+[32m+[m[32m    <meta charset="UTF-8">[m[41m[m
+[32m+[m[32m    <meta name="viewport" content="width=device-width, initial-scale=1.0">[m[41m[m
+[32m+[m[32m    <title>Солнечные батареи GreenCorp</title>[m[41m[m
+[32m+[m[32m</head>[m[41m[m
+[32m+[m[32m<body>[m[41m[m
+[32m+[m[32m    <header>[m[41m[m
+[32m+[m[32m        <img class="header__logo" src="img/del.png">[m[41m[m
+[32m+[m[32m        <div class="header__controls">[m[41m[m
+[32m+[m[32m            <a href="#contacts">Контакты</a>[m[41m[m
+[32m+[m[32m            <button>Заказать</button>[m[41m[m
+[32m+[m[32m        </div>[m[41m[m
+[32m+[m[32m    </header>[m[41m[m
+[32m+[m[32m    <section class="about">[m[41m[m
+[32m+[m[32m        <div class="about__info">[m[41m[m
+[32m+[m[32m            <h1>Солнечные панели GreenRobotic</h1>[m[41m[m
+[32m+[m[32m            <p>Производите дешёвую экологически чистую электроэнергию из солнечного света</p>[m[41m[m
+[32m+[m[32m            <button>Узнать подробнее</button>[m[41m[m
+[32m+[m[32m        </div>[m[41m[m
+[32m+[m[32m        <div class="about__images">[m[41m[m
+[32m+[m[32m            <img class="about__sun-image" src="img/[SW.BAND] sun.png" alt="тут должна быть картинка">[m[41m[m
+[32m+[m[32m            <img class="about__image" src="img/[SW.BAND] 3.png" alt="и тут тоже">[m[41m[m
+[32m+[m[32m        </div>[m[41m[m
+[32m+[m[32m    </section>[m[41m[m
+[32m+[m[32m</body>[m[41m[m
+[32m+[m[32m</html>[m
+\ No newline at end of file[m
+[1mdiff --git a/main.css b/main.css[m
+[1mnew file mode 100644[m
+[1mindex 0000000..65a2c7f[m
+[1m--- /dev/null[m
+[1m+++ b/main.css[m
+[36m@@ -0,0 +1,82 @@[m
+[32m+[m[32m  header{[m[41m[m
+[32m+[m[32m    display: flex;[m[41m[m
+[32m+[m[32m    justify-content: space-between;[m[41m[m
+[32m+[m[32m    align-items: center;[m[41m[m
+[32m+[m[32m    padding: 20px;[m[41m[m
+[32m+[m[32m  }[m[41m[m
+[32m+[m[41m[m
+[32m+[m[41m[m
+[32m+[m[32mbody{[m[41m[m
+[32m+[m[32m  font-family: Raleway, sans-serif;[m[41m[m
+[32m+[m[32m  color: #213053;[m[41m[m
+[32m+[m[32m  margin: 0;[m[41m[m
+[32m+[m[32m}[m[41m[m
+[32m+[m[41m[m
+[32m+[m[32m  .header__logo{[m[41m[m
+[32m+[m[32m    height: 30px;[m[41m[m
+[32m+[m[32m  }[m[41m[m
+[32m+[m[41m[m
+[32m+[m[32m  a{[m[41m[m
+[32m+[m[32m    text-decoration: none;[m[41m[m
+[32m+[m[32m  }[m[41m[m
+[32m+[m[41m[m
+[32m+[m[32m  header a{[m[41m[m
+[32m+[m[32m    font-size: 15px;[m[41m[m
+[32m+[m[32m    font-weight: 600;[m[41m[m
+[32m+[m[32m    margin-right: 25px;[m[41m[m
+[32m+[m[32m  }[m[41m[m
+[32m+[m[41m[m
+[32m+[m[32m  button{[m[41m[m
+[32m+[m[32m    font-family: Raleway, sans-serif;[m[41m[m
+[32m+[m[32m    font-size: 15px;[m[41m[m
+[32m+[m[32m    font-weight: 600;[m[41m[m
+[32m+[m[32m    color: #fff;[m[41m[m
+[32m+[m[32m    background-color: #23a030;[m[41m[m
+[32m+[m[32m    border: none;[m[41m[m
+[32m+[m[32m    border-radius: 15px;[m[41m[m
+[32m+[m[32m    cursor: pointer;[m[41m[m
+[32m+[m[32m    box-shadow: 0 16px 36px rgb(52 213 68 / 22%);[m[41m[m
+[32m+[m[32m    padding: 15px;[m[41m[m
+[32m+[m[32m  }[m[41m[m
+[32m+[m[41m[m
+[32m+[m[32m  .about__image{[m[41m[m
+[32m+[m[32m    width: 500px;[m[41m[m
+[32m+[m[32m  }[m[41m[m
+[32m+[m[41m[m
+[32m+[m[32m  .about__sun-image{[m[41m[m
+[32m+[m[32m    width: 100px;[m[41m[m
+[32m+[m[32m    height: 100px;[m[41m[m
+[32m+[m[32m  }[m[41m[m
+[32m+[m[41m[m
+[32m+[m[32m  .about{[m[41m[m
+[32m+[m[32m    display: flex;[m[41m[m
+[32m+[m[32m    align-items: center;[m[41m[m
+[32m+[m[32m    justify-content: space-around;[m[41m[m
+[32m+[m[32m    padding-top: 15px;[m[41m[m
+[32m+[m[32m    padding-bottom: 15px;[m[41m[m
+[32m+[m[32m    background: url('img/[SW.BAND]\ back.png') no-repeat;[m[41m[m
+[32m+[m[32m    background-position: center;[m[41m[m
+[32m+[m[32m    background-size: cover;[m[41m[m
+[32m+[m[32m  }[m[41m[m
+[32m+[m[41m[m
+[32m+[m[32m  .about h1{[m[41m[m
+[32m+[m[32m    font-size: 70px;[m[41m[m
+[32m+[m[32m    line-height: 76px;[m[41m[m
+[32m+[m[32m  }[m[41m[m
+[32m+[m[41m[m
+[32m+[m[32m  .about p{[m[41m[m
+[32m+[m[32m    font-size: 18px;[m[41m[m
+[32m+[m[32m    line-height: 30px;[m[41m[m
+[32m+[m[32m    opacity: 0.8;[m[41m[m
+[32m+[m[32m  }[m[41m[m
+[32m+[m[41m[m
+[32m+[m[32m  .about button{[m[41m[m
+[32m+[m[32m    font-size: 18px;[m[41m[m
+[32m+[m[32m    border-radius: 20px;[m[41m[m
+[32m+[m[32m    padding: 20px 25px 25px 20 px;[m[41m[m
+[32m+[m[32m    margin-top: 20px;[m[41m[m
+[32m+[m[32m  }[m[41m[m
+[32m+[m[41m[m
+[32m+[m[32m  .about__info{[m[41m[m
+[32m+[m[32m    max-width: 550px;[m[41m[m
+[32m+[m[32m  }[m
+\ No newline at end of file[m
+
+[33mcommit 3e1c15915e7e6b87e64c8356c127928bab7fbef7[m
+Author: Arcsenius <148575317+Arcsenius@users.noreply.github.com>
+Date:   Tue Mar 19 18:40:26 2024 +0300
+
+    Initial commit
+
+[1mdiff --git a/README.md b/README.md[m
+[1mnew file mode 100644[m
+[1mindex 0000000..45b704e[m
+[1m--- /dev/null[m
+[1m+++ b/README.md[m
+[36m@@ -0,0 +1 @@[m
+[32m+[m[32m# Learn_frontend_lend[m
+\ No newline at end of file[m
